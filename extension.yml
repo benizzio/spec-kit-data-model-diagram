@@ -1,0 +1,32 @@
+schema_version: "1.0"
+
+extension:
+  id: data-model-diagram
+  name: "Data Model Diagram"
+  version: "0.2.0"
+  description: "Generate Mermaid ER diagrams from Spec Kit data models after planning"
+  author: "Igor Benicio de Mesquita"
+  repository: "https://github.com/benizzio/spec-kit-data-model-diagram"
+  homepage: "https://github.com/benizzio/spec-kit-data-model-diagram"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.data-model-diagram.generate
+      file: commands/speckit.data-model-diagram.generate.md
+      description: "Generate data-model-diagram.mmd from data-model.md via agent inference"
+
+hooks:
+  after_plan:
+    command: speckit.data-model-diagram.generate
+    optional: true
+    prompt: "Generate a Mermaid ER diagram after planning?"
+    description: "Generate a Mermaid ER diagram from the active feature data model"
+
+tags:
+  - "diagram"
+  - "documentation"
+  - "mermaid"
