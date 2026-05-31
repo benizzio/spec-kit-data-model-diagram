@@ -3,7 +3,7 @@ schema_version: "1.0"
 extension:
   id: data-model-diagram
   name: "Data Model Diagram"
-  version: "0.2.1"
+  version: "0.2.2"
   description: "Generate Mermaid ER diagrams from Spec Kit data models after planning"
   author: "Igor Benicio de Mesquita"
   repository: "https://github.com/benizzio/spec-kit-data-model-diagram"
