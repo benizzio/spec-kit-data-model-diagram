@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1 - 2026-05-31
+
+- Restore command traceability markers for extension tooling
+- Replace the development install example with a portable placeholder path
+
 ## 0.2.0 - 2026-05-26
 
 - Move the extension into a dedicated publishing repository
