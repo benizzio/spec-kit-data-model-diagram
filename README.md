@@ -23,7 +23,7 @@ Generate a raw Mermaid `erDiagram` file from the active Spec Kit `data-model.md`
 ### From a GitHub Release
 
 ```bash
-specify extension add data-model-diagram --from https://github.com/benizzio/spec-kit-data-model-diagram/archive/refs/tags/v0.2.1.zip
+specify extension add data-model-diagram --from https://github.com/benizzio/spec-kit-data-model-diagram/archive/refs/tags/v0.2.2.zip
 ```
 
 ### Development Install
@@ -69,7 +69,7 @@ erDiagram
 
 1. Update `extension.yml` with the new semantic version.
 2. Add a matching entry to `CHANGELOG.md`.
-3. Create and push a Git tag such as `v0.2.1`.
+3. Create and push a Git tag such as `v0.2.2`.
 4. Create a GitHub release for that tag.
 5. Submit the extension through the Spec Kit Extension Submission issue template.
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 - 2026-05-31
+
+- Remove Spec Kit installation metadata comments from the command source
+
 ## 0.2.1 - 2026-05-31
 
 - Restore command traceability markers for extension tooling
