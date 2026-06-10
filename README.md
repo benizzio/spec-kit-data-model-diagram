@@ -1,5 +1,7 @@
 # Data Model Diagram Extension
 
+Spec Driven Development can induce a very high cognitive load, requiring people to deal with multiple specification documents for each feature. Because humans still need to read, understand, and refine specifications before letting agents implement the code, we need to make sure specs are easy for the people in the loop to read. This extension helps with that.
+
 Generate a raw Mermaid `erDiagram` file from the active Spec Kit `data-model.md`, either after `/speckit.plan` or by manual invocation.
 
 ## Features
